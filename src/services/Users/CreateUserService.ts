@@ -1,12 +1,12 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable import/prefer-default-export */
 import { getCustomRepository } from 'typeorm';
-import { UserRepository } from '../../repositories/UserRepository';
+import UserRepository from '../../repositories/UserRepository';
 
 interface IUserRequest {
-    name: string;
-    email: string;
-    admin?: boolean;
+  name: string;
+  email: string;
+  admin?: boolean;
 }
 
 export class CreateUserService {
