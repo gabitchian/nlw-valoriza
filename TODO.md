@@ -6,11 +6,9 @@ Project Description
 
 ### Todo
 
-- [ ] Criar classe de erro customizavel  
+- [ ] Criar classe de erro customizavel
+- [ ] Permitir cadastro de compliments com múltiplas tags
 
 ### In Progress
 
-
 ### Done ✓
-
-

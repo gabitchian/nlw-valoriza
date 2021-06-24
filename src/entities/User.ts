@@ -1,31 +1,38 @@
 /* eslint-disable camelcase */
 /* eslint-disable import/prefer-default-export */
 import {
-  Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn,
+  Column,
+  CreateDateColumn,
+  Entity,
+  PrimaryColumn,
+  UpdateDateColumn,
 } from 'typeorm';
 import { v4 as uuid } from 'uuid';
 
 @Entity('users')
 export class User {
-    @PrimaryColumn()
-    readonly id: string;
+  @PrimaryColumn()
+  readonly id: string;
 
-    @Column()
-    name: string;
+  @Column()
+  name: string;
 
-    @Column()
-    email: string;
+  @Column()
+  email: string;
 
-    @Column()
-    admin: boolean;
+  @Column()
+  password: string;
 
-    @CreateDateColumn()
-    created_at: Date;
+  @Column()
+  admin: boolean;
 
-    @UpdateDateColumn()
-    updated_at: Date;
+  @CreateDateColumn()
+  created_at: Date;
 
-    constructor() {
-      if (!this.id) this.id = uuid();
-    }
+  @UpdateDateColumn()
+  updated_at: Date;
+
+  constructor() {
+    if (!this.id) this.id = uuid();
+  }
 }

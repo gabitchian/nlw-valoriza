@@ -28,7 +28,7 @@ export class CreateTags1624533869705 implements MigrationInterface {
             default: 'now()',
           },
         ],
-      })
+      }),
     );
   }
 
