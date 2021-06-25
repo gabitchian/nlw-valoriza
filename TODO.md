@@ -1,6 +1,6 @@
 # Project
 
-Project Description
+Itens extra para melhorar o projeto
 
 <em>[TODO.md spec & Kanban Board](https://bit.ly/3fCwKfM)</em>
 
