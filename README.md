@@ -22,7 +22,7 @@
 </h1> -->
 
 <h4 align="center">
-	🏁  NLW-Valoriza - Em Andamento 🏁
+	🏁  NLW-Valoriza - Finalizado 🏁
 </h4>
 
 <p align="center">
