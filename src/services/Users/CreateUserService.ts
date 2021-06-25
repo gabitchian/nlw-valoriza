@@ -3,6 +3,7 @@
 /* eslint-disable import/prefer-default-export */
 import { getCustomRepository } from 'typeorm';
 import { hash } from 'bcryptjs';
+import { classToPlain } from 'class-transformer';
 import UserRepository from '../../repositories/UserRepository';
 
 interface IUserRequest {
@@ -35,6 +36,6 @@ export class CreateUserService {
 
     await usersRepository.save(user);
 
-    return user;
+    return classToPlain(user);
   }
 }

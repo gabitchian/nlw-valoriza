@@ -3,14 +3,19 @@
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
 import express, { NextFunction, Request, Response } from 'express';
+import cors from 'cors';
+
 import 'express-async-errors';
 import 'reflect-metadata';
 import './database';
+
 import routes from './routes';
 
 require('dotenv/config');
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 

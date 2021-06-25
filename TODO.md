@@ -6,9 +6,17 @@ Project Description
 
 ### Todo
 
-- [ ] Criar classe de erro customizavel
-- [ ] Permitir cadastro de compliments com múltiplas tags
+- [ ] Gerenciamento de erros (sentry?)  
+- [ ] Refatorar código  
+- [ ] Criar um frontend  
+- [ ] Fazer deploy  
+- [ ] Enviar um e-mail para o usuário que recebeu o elogio  
+- [ ] Criar classe de erro customizavel  
+- [ ] Permitir cadastro de compliments com múltiplas tags  
 
 ### In Progress
 
+
 ### Done ✓
+
+
